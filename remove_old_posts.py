@@ -85,7 +85,7 @@ class WordPressMediaPostsRemoval():
             try:
                 print(f'======= Processing post {index}, post ID: {post_id} =======')
                 print(f'Deleting post ID: {post_id}')
-                # 3. Remove featured media associated to the post
+                # Remove featured media associated to the post
                 media_id = post.get('featured_media')
                 if media_id:
                     self.delete_media(media_id)

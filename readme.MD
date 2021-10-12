@@ -5,3 +5,6 @@ To run the script:
     
     NOTE: Specifying the app password directly in the config file is NOT RECOMMENDED. You can use environment variable to pass the value into the script or if you are using AWS/GCP you are advised to use Parameter Store or Secret Manager instead.
 4. Run the script `python remove_old_posts.py`
+
+
+More detailed information about this repo can be found in the medium article [here](https://medium.com/geekculture/bulk-delete-wordpress-posts-using-python-and-wordpress-rest-api-15f426fb798f)
